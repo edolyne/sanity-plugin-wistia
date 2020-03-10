@@ -5,7 +5,7 @@ Position input for [Sanity](https://sanity.io/) that stores selected position.
 ## Installation
 In your studio folder, run: 
 ```
-sanity install wistia-input
+sanity install wistia
 ```
 
 Then create a config file in  ./config/wistia.json.
