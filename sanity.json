@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "source": "./src",
+    "compiled": "./lib"
+  },
+  "parts": [
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "./lib/schema/index.js"
+    },
+    {
+      "name": "part:@sanity/base/components/wistia",
+      "description": "React component which provides a searchable select for your account's wistia videos, and a preview"
+    },
+    {
+      "implements": "part:@sanity/base/components/wistia",
+      "path": "./lib/components/input.js"
+    }
+  ]
+}
