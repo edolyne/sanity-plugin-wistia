@@ -61,7 +61,7 @@ export default class Wistia extends React.Component {
           let videoReturn = []
 
           retrivedVideos.map((item) => {
-            videoReturn.push({ title: item.name, id: item.hashed_id })
+            videoReturn.push({ title: item.name, id: item.hashed_id, wistiaId: item.hashed_id })
           })
 
           resolve(videoReturn)

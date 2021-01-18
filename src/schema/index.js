@@ -10,6 +10,10 @@ export default {
       type: 'string',
       required: true
     },{
+      name: 'wistiaId',
+      type: 'string',
+      required: true
+    },{
       name: 'title',
       type: 'string'
     }
